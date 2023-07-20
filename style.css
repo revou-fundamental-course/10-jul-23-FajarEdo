@@ -52,6 +52,7 @@ h4{
     padding: 4px 0 4px 0;
     border: 1px solid rgb(1, 119, 255);
     border-radius: 3px;
+    cursor: pointer;
 
 }
 .hapus{
@@ -60,6 +61,7 @@ h4{
     width: 2cm;
     padding: 4px 0 4px 0;
     border: 1px solid rgb(187, 55, 38);
+    cursor: pointer;
     border-radius: 3px;
 }
 .hapus:hover{
@@ -91,6 +93,12 @@ h4{
     border: 1px solid rgb(13, 201, 28);
     border-radius: 3px;
 }
+.konsultasi:hover{
+    color: chartreuse;
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
+}
 .registrasi{
     color: rgb(255, 255, 255);
     background-color: rgb(77, 247, 10);
@@ -99,6 +107,12 @@ h4{
     padding: 4px 0 4px 0;
     border: 1px solid rgb(13, 201, 28);
     border-radius: 3px;
+}
+.registrasi:hover{
+    color: chartreuse;
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
 }
 .note{
     margin: 5px 0 5px 0;
@@ -131,4 +145,19 @@ h4{
 #unduh{
     text-decoration: none;
     color: black;
+    margin-bottom: 10px;
+    cursor: context-menu;
+}
+#buat{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(9, 170, 9);
+    color: greenyellow;
+    padding: 2px 15px 2px 15px;
+    width: auto;
+}
+#buat:hover{
+    cursor: pointer;
+    background-color: rgb(92, 252, 0);
+    color: rgb(10, 155, 22);
 }
